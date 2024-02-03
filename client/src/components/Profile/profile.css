@@ -1,0 +1,63 @@
+.main{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.photo .ph{
+    padding: 1.5rem;
+    text-align: center;
+    width: 13rem;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.details .t1{
+    font-size: 0.9rem;
+}
+.details .t2{
+    font-size: 1.5rem;
+}
+
+.details .btn button{
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    *{
+        margin-top: 5rem;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .photo{
+        align-items: center;
+    }
+    .details{
+        /* margin-left: 4rem; */
+        /* align-items: start; */
+        justify-content: center;
+    }
+
+    .details .t1{
+        font-size: 0.5rem;
+    }
+    .details .t2{
+        font-size: 1rem;
+    }
+
+    
+
+}

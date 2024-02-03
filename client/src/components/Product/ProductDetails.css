@@ -1,0 +1,164 @@
+.product_stack{
+    padding: 4rem;
+    /* height: 50vh; */
+    justify-content: center;
+    /* display: flex; */
+    /* direction: row; */
+    /* line-height: 2.2rem; */
+}
+
+.reviewsHeading {
+    /* color: #ffffffbe; */
+    font: 500 1rem "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 1rem;
+    width: 15rem;
+    margin: auto;
+    /* margin-bottom: 4vmax; */
+}
+.reviews {
+    display: flex;
+    overflow: auto;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.reviewCard {
+    flex: none;
+    box-shadow: 0 0 5px #635dc0;
+    border: 1px solid rgba(56, 56, 56, 0.116);
+    width: 15rem;
+    display: flex;
+    /* background-color: #11101c; */
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.reviewCard:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #635dc0;
+}
+.reviewCard > img {
+    width: 5vmax;
+}
+.reviewCard > p {
+    /* color: rgba(0, 0, 0, 0.836); */
+    font: 600 0.9vmax "Roboto";
+}
+.reviewCardComment {
+    /* color: rgba(0, 0, 0, 0.445); */
+    font: 300 0.8vmax cursive;
+}
+.noReviews {
+    font: 400 1.3vmax "Gill Sans";
+    text-align: center;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+
+@media screen and (max-width: 480px) {
+    .carouselImages {
+      width: 10rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .productDetailsBox{
+        padding: 0;
+        
+    }
+    .productDetailsBox h1{
+        padding: 0.5rem 0rem;
+        font-size: 2rem;
+        
+    }
+    
+    .productDetailsBox h4{
+        font-size: 0.8rem;
+    }
+    .product_stack{
+        padding: 3rem 2rem;
+    }
+
+    .reviewCard > p {
+        /* color: rgba(0, 0, 0, 0.836); */
+        font: 600 0.9rem "Roboto";
+    }
+    .reviewCardComment {
+        /* color: rgba(0, 0, 0, 0.445); */
+        font: 300 0.8rem cursive;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .product_stack{
+        padding: 5rem;
+        /* height: 50vh; */
+        justify-content: center;
+        /* display: flex; */
+        /* direction: row; */
+        /* line-height: 2.2rem; */
+    }
+    .carouselImages {
+      width: 15rem;
+    }
+    .productDetailsBox{
+        padding: 0 0 0 1rem;
+    }
+
+    .productDetailsBox h1{
+        padding: 0.2rem 0rem;
+        font-size: 1.2rem;
+    }
+    
+    .productDetailsBox h4{
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+    .product_stack{
+        padding: 8rem;
+        /* height: 50vh; */
+        justify-content: center;
+        /* display: flex; */
+        /* direction: row; */
+        /* line-height: 2.2rem; */
+    }
+    .carouselImages {
+      width: 20.5rem;
+    }
+    .productDetailsBox{
+        padding: 1rem 0rem 0 3rem;
+        /* line-height: 2rem; */
+    }
+    
+    .productDetailsBox h1{
+        padding: 0.5rem 0rem;
+        font-size: 2rem;
+    }
+    
+    .productDetailsBox h4{
+        font-size: 0.8rem;
+    }
+
+    .reviewCard > img {
+        width: 5vmax;
+    }
+    .reviewCard > p {
+        /* color: rgba(0, 0, 0, 0.836); */
+        font: 600 0.9rem "Roboto";
+    }
+    .reviewCardComment {
+        /* color: rgba(0, 0, 0, 0.445); */
+        font: 300 0.8rem cursive;
+    }
+}

@@ -1,0 +1,176 @@
+.containerX{
+    height: 40rem;
+    /* width: full; */
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.boxX{
+    margin-top: 2rem;
+    width: 30rem;
+    background: #000;
+    overflow: hidden;
+}
+
+.switcher{
+    display: flex;
+    height: 4rem;
+    /* margin-bottom: 0px; */
+    justify-content: space-evenly;
+}
+
+.switcher >p {
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.switcher >p:hover {
+    background: #635dc0;
+}
+
+.box >div >Button{
+    height: 5px;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    margin-top: -1.5rem;
+    background-color: #3027ae;
+}
+
+.loginForm, .createProductForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    /* height: 5rem; */
+    
+}
+
+.loginForm >div, .createProductForm >div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.loginForm >div >input, select, .createProductForm >div >input, .createProductForm >div >select {
+    padding: 1rem 1rem 1rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3027ae;
+    border-radius: 4px;
+    background: #000;
+    outline: none;
+}
+
+.loginForm >div >.svg, .createProductForm >div >.svg {
+    position: absolute;
+    transform: translateX(1rem);
+    color: #635dc0;
+}
+
+.loginForm >a{
+    align-self: flex-end;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.loginForm >a:hover {
+    color: #635dc0;
+}
+
+.loginBtn, .signUpBtn {
+    background-color: #3027ae;
+    font: 500 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.loginBtn:hover, .signUpBtn:hover {
+    background-color: #635dc0;
+}
+
+#registerImage >img{
+    width: 3rem;
+    border-radius: 100%;
+    filter:hue-rotate(-175deg)
+}
+
+#registerImage > input, select, select {
+    display: flex;
+    padding: 0%;
+}
+
+#registerImage > input, select::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+}
+.shiftToRight{
+    transform: translateX(100%);
+}
+.shiftToNeutral{
+    transform: translateX(0%);
+}
+
+#createProductFormFile > input {
+  display: flex;
+  padding: 0%;
+}
+
+#createProductFormFile > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: none;
+  margin: 0%;
+  font: 400 0.8vmax cursive;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+}
+
+#createProductFormFile > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+#createProductFormImage {
+  width: 100%;
+  overflow: auto;
+}
+
+#createProductFormImage > img {
+  width: 3vmax;
+  margin: 0 0.5vmax;
+}
+#createProductBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+#createProductBtn:hover {
+  background-color: rgb(179, 66, 46);
+}

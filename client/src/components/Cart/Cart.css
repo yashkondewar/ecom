@@ -1,0 +1,70 @@
+.cartPage{
+    margin: 5rem 10rem;
+}
+
+.CartItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0rem;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.itemImage{
+    width: 15rem;
+}
+
+.itemData{
+    font: 1.3rem sans-serif;
+}
+
+.itemData div{
+    padding: 1rem 0rem;
+}
+.itemData p{
+    margin-top: -0.8rem;
+}
+
+.totalPrice{
+    text-align: right;
+    font: 800 2rem bold;
+}
+.amount{
+    text-decoration: underline;
+}
+@media screen and (max-width: 700px) {
+    .cartPage{
+        margin: 5rem 5rem;
+    }
+    .CartItem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+        border: 1px solid red;
+    }
+    
+    .itemImage{
+        width: 9rem;
+    }
+    
+    .itemData{
+        font: 1rem sans-serif;
+    }
+    
+    .itemData div{
+        padding: 0.2rem 0rem;
+    }
+    .itemData p{
+        margin-top: -0.1rem;
+    }
+    
+    .totalPrice{
+        text-align: right;
+        font: 800 1.3rem bold;
+    }
+    .amount{
+        text-decoration: underline;
+    }
+}

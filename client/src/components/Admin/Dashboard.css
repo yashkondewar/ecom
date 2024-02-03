@@ -1,0 +1,25 @@
+.dashboard{
+    margin: 5rem auto;
+}
+.options{
+    display: flex;
+    padding: 4rem;
+}
+.btnAdmin{
+    padding: 7vw;
+    border-radius: 100%;
+    background: #635dc0;
+    margin: auto;
+    transition: all 1s;
+}
+.btnAdmin:hover{
+    background: #3027ae;
+}
+
+
+@media screen and (max-width: 500px) {
+    .options{
+        display: flex;
+        padding: 2vw;
+    }
+}

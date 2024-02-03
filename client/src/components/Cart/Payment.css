@@ -1,0 +1,116 @@
+.paymentContainer{
+    /* height: 40rem; */
+    /* width: full; */
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* color: /#fff; */
+}
+
+.paymentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    /* height: 5rem; */
+    
+}
+.paymentBox{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 30rem;
+    background: rgba(18, 18, 33, 0.785);
+    overflow: hidden;
+}
+
+.paymentForm >div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.paymentInput{
+    padding: 1rem 1rem 1rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3027ae;
+    border-radius: 4px;
+    background: #fff;
+    color: aliceblue;
+    outline: none;
+}
+
+.svg{
+    position: absolute;
+    transform: translateX(1rem);
+    color: #635dc0;
+}
+
+.payBtn   {
+    background-color: #3027ae;
+    font: 500 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.payBtn:hover {
+    background-color: #635dc0;
+}
+
+@media screen and (max-width: 600px) {
+    .steps{
+        margin: 5rem 0.5rem;
+    }
+    .paymentContainer{
+        margin-top: 4rem;
+        
+    }
+    .paymentBox{
+        margin-top: 2rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .paymentForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        /* height: 5rem; */
+        
+    }
+    
+    .paymentForm >div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 0.8rem;
+    }
+    
+    .paymentInput{
+        /* padding: 1rem 1rem 1rem 4rem; */
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #3027ae;
+        border-radius: 4px;
+        background: #000;
+        outline: none;
+    }
+    
+    .svg{
+        position: absolute;
+        transform: translateX(1rem);
+        color: #635dc0;
+    }
+}

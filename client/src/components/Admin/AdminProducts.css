@@ -1,0 +1,14 @@
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}
+.newProd{
+    padding: 2rem;
+    background: #635dc0;
+    border-radius: 100%;
+}

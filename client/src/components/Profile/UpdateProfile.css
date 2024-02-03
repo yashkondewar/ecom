@@ -1,0 +1,114 @@
+.container{
+    height: 40rem;
+    /* width: full; */
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 35rem;
+    background: #000;
+    overflow: hidden;
+}
+
+
+.headingU {
+    transition: all 0.5s;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    background: #3027ae;
+}
+
+.headingU:hover {
+    background: #635dc0;
+}
+
+.box >div >Button{
+    height: 5px;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    margin-top: -1.5rem;
+    background-color: #3027ae;
+}
+
+.loginForm, .updateProfileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    /* height: 5rem; */
+    
+}
+
+.loginForm >div, .updateProfileForm >div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.loginForm >div >input, .updateProfileForm >div >input {
+    padding: 1rem 1rem 1rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3027ae;
+    border-radius: 4px;
+    background: #000;
+    outline: none;
+}
+
+.loginForm >div >.svg, .updateProfileForm >div >.svg {
+    position: absolute;
+    transform: translateX(1rem);
+    color: #635dc0;
+}
+
+.loginForm >a{
+    align-self: flex-end;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+
+.loginForm >a:hover {
+    color: #635dc0;
+}
+
+.loginBtn, .updateProfileBtn {
+    background-color: #3027ae;
+    font: 500 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.loginBtn:hover, .updateProfileBtn:hover {
+    background-color: #635dc0;
+}
+
+#updateProfileImage >img{
+    width: 4.5rem;
+    border-radius: 100%;
+}
+
+#updateProfileImage > input {
+    display: flex;
+    padding: 0%;
+}
+
+#updateProfileImage > input::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+}

@@ -1,0 +1,48 @@
+.successContainer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: auto; */
+    align-items: center;
+    margin: 5rem 5rem;
+    padding: 5rem;
+}
+.tmp{
+    width: 64px;
+    height: 64px;
+    color: #635dc0;
+}
+
+.successbtn   {
+    background-color: #3027ae;
+    font: 500 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    /* width: 100%; */
+    margin-top: 1rem;
+}
+
+.successbtn:hover {
+    background-color: #635dc0;
+}
+
+@media screen and (max-width: 600px) {
+    .tmp{
+        width: 45px;
+        height: 45px;
+    }
+
+    .successContainer{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0rem;
+    }
+    
+}

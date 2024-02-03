@@ -1,0 +1,135 @@
+.steps{
+    margin: 5rem 5rem;
+}
+
+.shippingContainer{
+    /* height: 40rem; */
+    /* width: full; */
+    /* color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.shippingBox{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 45rem;
+    background: rgba(18, 18, 33, 0.785);
+    overflow: hidden;
+}
+
+.shippingHeading{
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #3027ae;
+    padding: 1rem;
+}
+
+.shippingForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    /* height: 5rem; */
+    
+}
+
+.shippingForm >div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.shippingForm >div >input,
+.shippingForm >div >select{
+    padding: 1rem 1rem 1rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #3027ae;
+    border-radius: 4px;
+    background: #000;
+    outline: none;
+}
+
+.shippingForm >div >.svg{
+    position: absolute;
+    transform: translateX(1rem);
+    color: #635dc0;
+}
+
+.shoppingBtn   {
+    background-color: #3027ae;
+    font: 500 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.shoppingBtn:hover {
+    background-color: #635dc0;
+}
+
+@media screen and (max-width: 600px) {
+    .steps{
+        margin: 5rem 0.5rem;
+    }
+    .shippingContainer{
+        margin-top: 4rem;
+        
+    }
+    .shippingBox{
+        margin-top: 2rem;
+        width: 100%;
+        /* height: 45rem; */
+        background: #000;
+        overflow: hidden;
+    }
+    .shippingHeading{
+        text-align: center;
+        font-size: 1.5rem;
+        border-bottom: 1px solid #3027ae;
+        padding: 1rem;
+    }
+    .shippingForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        /* height: 5rem; */
+        
+    }
+    
+    .shippingForm >div {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 0.8rem;
+    }
+    
+    .shippingForm >div >input,
+    .shippingForm >div >select{
+        /* padding: 1rem 1rem 1rem 4rem; */
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #3027ae;
+        border-radius: 4px;
+        background: #000;
+        outline: none;
+    }
+    
+    .shippingForm >div >.svg{
+        position: absolute;
+        transform: translateX(1rem);
+        color: #635dc0;
+    }
+}
